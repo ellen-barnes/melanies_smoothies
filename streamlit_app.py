@@ -25,7 +25,7 @@ ingredients_list = st.multiselect(
     , max_selections=5
 )
 
-
+test = st.button('TEST')
 if ingredients_list:
 
     ingredients_string = ''
